@@ -1,0 +1,13 @@
+*~
+__pycache__/
+*.d
+*.o
+*.so
+
+cfh.c
+Makefile.inc
+
+test/
+*.dat
+
+graph-utils/showg

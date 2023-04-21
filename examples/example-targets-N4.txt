@@ -1,0 +1,26 @@
+# target index = 0: [ntargets = 4]
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 1 0]
+ [0 0 0 1]]
+
+# target index = 1: [ntargets = 3]
+[[1 1 0 0]
+ [1 0 1 0]
+ [0 0 0 1]]
+
+# target index = 2: [ntargets = 3]
+[[1 1 0 0]
+ [1 0 1 0]
+ [1 0 0 1]]
+
+# target index = 3: [ntargets = 3]
+[[1 1 0 0]
+ [1 0 1 0]
+ [0 1 0 1]]
+
+# target index = 4: [ntargets = 4]
+[[1 1 0 0]
+ [1 0 1 0]
+ [0 1 0 1]
+ [0 0 1 1]]

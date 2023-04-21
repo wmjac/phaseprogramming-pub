@@ -1,0 +1,8 @@
+# target index = 0: [ntargets = 3]
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+
+# target index = 1: [ntargets = 2]
+[[1 1 0]
+ [1 0 1]]

@@ -1,7 +1,7 @@
 Installation:
 -------------
 
-The following Python libraries are required: numpy, scipy, networkx, cvxpy.  To build the library cfh.so, modify the file Makefile.inc as necessary and then run make.  This build requires the Cython compiler.
+The following Python libraries are required: numpy, scipy, networkx, cvxpy. To build the library cfh.so manually, go to the source code directory, modify the file Makefile.inc as necessary and then run make. This build requires the Cython compiler. Alternatively, run "pip install ." to install the source code as a package, which takes care of all the dependencies. 
 
 Usage:
 ------
@@ -9,5 +9,5 @@ Usage:
 Usage information can be obtained by running either of the main scripts, fh_solve_convex.py and fh_solve_coex.py, with the --help flag.  Example input files (specifying equimolar target phases) are provided in the examples/ directory.  These example design problems can be solved in two steps as follows:
 
   cd examples/
-  python3 ../fh_solve_convex.py example-targets-N4.txt ridge --output=example-targets-N4-solutions.p.gz
-  python3 ../fh_solve_coex.py example-targets-N4-solutions.p.gz
+  python3 ../src/fh_solve_convex.py example-targets-N4.txt ridge --output=example-targets-N4-solutions.p.gz
+  python3 ../src/fh_solve_coex.py example-targets-N4-solutions.p.gz

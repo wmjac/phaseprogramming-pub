@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython>=0.29", "numpy>=1.20"]
+
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["fh"]
+
+[project]
+name        = "fh"
+version     = "0.0.1"    
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20",
+    "cvxpy",
+    "scipy",
+    "networkx"
+]
+

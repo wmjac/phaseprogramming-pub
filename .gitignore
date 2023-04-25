@@ -7,7 +7,4 @@ __pycache__/
 cfh.c
 Makefile.inc
 
-test/
-*.dat
-
-graph-utils/showg
+fh.egg-info
